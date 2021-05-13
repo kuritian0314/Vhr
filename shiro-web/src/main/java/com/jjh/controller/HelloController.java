@@ -9,4 +9,10 @@ public class HelloController {
     public String hello() {
         return "hello, shiro!";
     }
+
+    @RequestMapping("/test")
+    @ResponseBody
+    public void say() {
+        System.out.println("this is for you, shiro!");
+    }
 }
