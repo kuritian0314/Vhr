@@ -1,6 +1,7 @@
 package com.jjh.vo;
 
 public class User {
+    //curry
     //dddd
     private String username;
     private String password;
