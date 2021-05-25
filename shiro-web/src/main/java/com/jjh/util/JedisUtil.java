@@ -16,7 +16,7 @@ import java.util.Set;
  **/
 @Component
 public class JedisUtil {
-
+    //jedis工具类使用
     @Resource
     private JedisPool jedisPool;
 
